@@ -1,0 +1,24 @@
+{
+  "name": "graphlib",
+  "version": "0.0.1",
+  "description": "Boilerplate starter library",
+  "main": "lib/graphlib.js",
+  "scripts": {
+    "build": "webpack --env build",
+    "start": "webpack --progress --colors --watch --env dev"
+  },
+  "devDependencies": {
+    "babel-cli": "",
+    "babel-core": "",
+    "babel-eslint": "",
+    "babel-loader": "",
+    "babel-plugin-add-module-exports": "",
+    "babel-preset-es2015": "",
+    "eslint": "",
+    "eslint-loader": "",
+    "webpack": "",
+    "yargs": ""
+  },
+  "author": "Ashwin Kamath",
+  "license": "UNLICENSED"
+}

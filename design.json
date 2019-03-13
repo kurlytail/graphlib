@@ -1,0 +1,61 @@
+{
+  "_KbuY0EW4EemKT5rL-yWemg": {
+    "clazz": "Cell",
+    "count": 1,
+    "external": false,
+    "name": "RootContainer",
+    "input": [],
+    "output": []
+  },
+  "_EUKkskW4EemKT5rL-yWemg": {
+    "clazz": "MasterDesign",
+    "name": "graphlib",
+    "cell": [
+      "master_cell_RootContainer"
+    ],
+    "tube": []
+  },
+  "_KAqNcEW4EemKT5rL-yWemg": {
+    "clazz": "Flow",
+    "name": "DefaultRoute",
+    "cell": [
+      "_KbuY0EW4EemKT5rL-yWemg"
+    ],
+    "tube": []
+  },
+  "master_cell_RootContainer": {
+    "clazz": "MasterCell",
+    "count": 1,
+    "external": false,
+    "internalName": "master_cell_RootContainer",
+    "name": "RootContainer",
+    "pinned": false,
+    "input": [],
+    "output": [],
+    "designCells": [
+      "_Gbrq0EW4EemKT5rL-yWemg",
+      "_KbuY0EW4EemKT5rL-yWemg"
+    ]
+  },
+  "_4v_W4EW3EemKT5rL-yWemg": {
+    "clazz": "Layer",
+    "name": "swarm",
+    "constraint": []
+  },
+  "_9Z2d8EW3EemKT5rL-yWemg": {
+    "clazz": "Flow",
+    "name": "RootContainer",
+    "cell": [
+      "_Gbrq0EW4EemKT5rL-yWemg"
+    ],
+    "tube": []
+  },
+  "_Gbrq0EW4EemKT5rL-yWemg": {
+    "clazz": "Cell",
+    "count": 1,
+    "external": false,
+    "name": "RootContainer",
+    "input": [],
+    "output": []
+  }
+}

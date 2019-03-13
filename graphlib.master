@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:flow="http://www.brainspeedtech.com/swarm/flow" xmlns:master="http://www.brainspeedtech.com/swarm/master" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation">
+  <notation:Diagram xmi:id="_EUKksEW4EemKT5rL-yWemg" type="Master" element="_EUKkskW4EemKT5rL-yWemg" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_EUKksUW4EemKT5rL-yWemg"/>
+  </notation:Diagram>
+  <master:MasterDesign xmi:id="_EUKkskW4EemKT5rL-yWemg" name="graphlib">
+    <cell xmi:type="master:MasterCell" xmi:id="_G0-7oEW4EemKT5rL-yWemg" count="1" external="false" internalName="master_cell_RootContainer" name="RootContainer">
+      <designCells xmi:type="flow:Cell" href="containers/RootContainer.flow#_Gbrq0EW4EemKT5rL-yWemg"/>
+      <designCells xmi:type="flow:Cell" href="routes/DefaultRoute.flow#_KbuY0EW4EemKT5rL-yWemg"/>
+    </cell>
+  </master:MasterDesign>
+</xmi:XMI>

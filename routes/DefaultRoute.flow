@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:flow="http://www.brainspeedtech.com/swarm/flow" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation">
+  <flow:Flow xmi:id="_KAqNcEW4EemKT5rL-yWemg" name="DefaultRoute">
+    <cell xmi:type="flow:Cell" xmi:id="_KbuY0EW4EemKT5rL-yWemg" name="RootContainer"/>
+  </flow:Flow>
+  <notation:Diagram xmi:id="_KAqNcUW4EemKT5rL-yWemg" type="Flow" element="_KAqNcEW4EemKT5rL-yWemg" name="DefaultRoute.flow" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_Kbvm8EW4EemKT5rL-yWemg" type="2001" element="_KbuY0EW4EemKT5rL-yWemg" fontName=".SF NS Text">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Kbvm8kW4EemKT5rL-yWemg" type="5001"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Kbvm8UW4EemKT5rL-yWemg" x="266" y="282"/>
+    </children>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_KAqNckW4EemKT5rL-yWemg"/>
+  </notation:Diagram>
+</xmi:XMI>

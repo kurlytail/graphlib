@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:flow="http://www.brainspeedtech.com/swarm/flow" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation">
+  <flow:Flow xmi:id="_ADNhUEXCEemKT5rL-yWemg" name="GraphContainer"/>
+  <notation:Diagram xmi:id="_ADOIYEXCEemKT5rL-yWemg" type="Flow" element="_ADNhUEXCEemKT5rL-yWemg" name="GraphContainer.flow" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_ADOIYUXCEemKT5rL-yWemg"/>
+  </notation:Diagram>
+</xmi:XMI>

@@ -5,23 +5,63 @@
     "external": false,
     "name": "RootContainer",
     "input": [],
-    "output": []
+    "output": [
+      "_FbBTgEXCEemKT5rL-yWemg"
+    ]
+  },
+  "_FbBTgEXCEemKT5rL-yWemg": {
+    "clazz": "Tube",
+    "name": "Graph",
+    "descriptor": [],
+    "from": "_KbuY0EW4EemKT5rL-yWemg",
+    "to": "_EfrFkEXCEemKT5rL-yWemg"
+  },
+  "RootContainer-Graph-GraphContainer": {
+    "clazz": "MasterTube",
+    "internalName": "RootContainer-Graph-GraphContainer",
+    "name": "Graph",
+    "designTubes": [
+      "_FbBTgEXCEemKT5rL-yWemg"
+    ],
+    "from": "master_cell_RootContainer",
+    "to": "master_cell_GraphContainer"
+  },
+  "master_cell_GraphContainer": {
+    "clazz": "MasterCell",
+    "count": 1,
+    "external": false,
+    "internalName": "master_cell_GraphContainer",
+    "name": "GraphContainer",
+    "pinned": false,
+    "input": [
+      "RootContainer-Graph-GraphContainer"
+    ],
+    "output": [],
+    "designCells": [
+      "_EfrFkEXCEemKT5rL-yWemg"
+    ]
   },
   "_EUKkskW4EemKT5rL-yWemg": {
     "clazz": "MasterDesign",
     "name": "graphlib",
     "cell": [
+      "master_cell_GraphContainer",
       "master_cell_RootContainer"
     ],
-    "tube": []
+    "tube": [
+      "RootContainer-Graph-GraphContainer"
+    ]
   },
   "_KAqNcEW4EemKT5rL-yWemg": {
     "clazz": "Flow",
     "name": "DefaultRoute",
     "cell": [
-      "_KbuY0EW4EemKT5rL-yWemg"
+      "_KbuY0EW4EemKT5rL-yWemg",
+      "_EfrFkEXCEemKT5rL-yWemg"
     ],
-    "tube": []
+    "tube": [
+      "_FbBTgEXCEemKT5rL-yWemg"
+    ]
   },
   "master_cell_RootContainer": {
     "clazz": "MasterCell",
@@ -31,7 +71,9 @@
     "name": "RootContainer",
     "pinned": false,
     "input": [],
-    "output": [],
+    "output": [
+      "RootContainer-Graph-GraphContainer"
+    ],
     "designCells": [
       "_Gbrq0EW4EemKT5rL-yWemg",
       "_KbuY0EW4EemKT5rL-yWemg"
@@ -42,12 +84,28 @@
     "name": "swarm",
     "constraint": []
   },
+  "_EfrFkEXCEemKT5rL-yWemg": {
+    "clazz": "Cell",
+    "count": 1,
+    "external": false,
+    "name": "GraphContainer",
+    "input": [
+      "_FbBTgEXCEemKT5rL-yWemg"
+    ],
+    "output": []
+  },
   "_9Z2d8EW3EemKT5rL-yWemg": {
     "clazz": "Flow",
     "name": "RootContainer",
     "cell": [
       "_Gbrq0EW4EemKT5rL-yWemg"
     ],
+    "tube": []
+  },
+  "_ADNhUEXCEemKT5rL-yWemg": {
+    "clazz": "Flow",
+    "name": "GraphContainer",
+    "cell": [],
     "tube": []
   },
   "_Gbrq0EW4EemKT5rL-yWemg": {

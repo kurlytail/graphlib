@@ -1,3 +1,5 @@
+import GraphContainer from './GraphContainer';
+
 import RootContainer from './RootContainer';
 
-export { RootContainer };
+export { GraphContainer, RootContainer };

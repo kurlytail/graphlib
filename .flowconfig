@@ -1,0 +1,14 @@
+[ignore]
+<PROJECT_ROOT>/.*/test/.*
+<PROJECT_ROOT>/.*/tests/.*
+<PROJECT_ROOT>/.*/templates/.*
+
+[include]
+
+[libs]
+
+[lints]
+
+[options]
+
+[strict]

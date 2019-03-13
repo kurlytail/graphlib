@@ -4,7 +4,7 @@
     "version": "0.0.1",
     "main": "dist/app.min.js",
     "devDependencies": {
-        "@kurlytail/gen-react": "0.0.26",
+        "@kurlytail/gen-react": "0.0.30",
         "babel-cli": "^6.26.0",
         "babel-core": "^6.26.0",
         "babel-eslint": "^8.0.1",

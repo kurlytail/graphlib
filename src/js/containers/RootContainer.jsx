@@ -1,15 +1,9 @@
 import { BrowserRouter as Router } from 'react-router-dom';
-import { Route } from 'react-router-dom';
-import GraphContainer from './GraphContainer';
 import React, { Component } from 'react';
 
 class RootContainer extends Component {
     render() {
-        const Container = (
-            <div>
-                <Route path={'*'} component={GraphContainer} />
-            </div>
-        );
+        const Container = <div />;
 
         return <Router>{Container}</Router>;
     }

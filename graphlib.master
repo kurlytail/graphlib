@@ -4,22 +4,22 @@
     <styles xmi:type="notation:DiagramStyle" xmi:id="_EUKksUW4EemKT5rL-yWemg"/>
   </notation:Diagram>
   <master:MasterDesign xmi:id="_EUKkskW4EemKT5rL-yWemg" name="graphlib">
-    <cell xmi:type="master:MasterCell" xmi:id="_pZyHEEqHEemuQsfqsOazYw" output="_pZyHEUqHEemuQsfqsOazYw" count="1" external="false" internalName="master_cell_ButtonComponent" name="ButtonComponent">
-      <designCells xmi:type="flow:Cell" href="containers/GraphContainer.flow#_m_jgUEqHEemuQsfqsOazYw"/>
+    <cell xmi:type="master:MasterCell" xmi:id="_pZyHEEqHEemuQsfqsOazYw" output="_ElecUEqIEemuQsfqsOazYw" count="1" external="false" internalName="master_cell_ButtonComponent" name="ButtonComponent">
+      <designCells xmi:type="flow:Cell" href="containers/RootContainer.flow#_8K41oEqHEemuQsfqsOazYw"/>
     </cell>
-    <cell xmi:type="master:MasterCell" xmi:id="_KbLasEXCEemKT5rL-yWemg" input="_pZyHEUqHEemuQsfqsOazYw" output="_pZyHEkqHEemuQsfqsOazYw" count="1" external="false" internalName="master_cell_GraphContainer" name="GraphContainer">
+    <cell xmi:type="master:MasterCell" xmi:id="_KbLasEXCEemKT5rL-yWemg" output="_ElecUUqIEemuQsfqsOazYw" count="1" external="false" internalName="master_cell_GraphContainer" name="GraphContainer">
       <designCells xmi:type="flow:Cell" href="containers/GraphContainer.flow#_lnDcUEqHEemuQsfqsOazYw"/>
       <designCells xmi:type="flow:Cell" href="routes/DefaultRoute.flow#_EfrFkEXCEemKT5rL-yWemg"/>
     </cell>
-    <cell xmi:type="master:MasterCell" xmi:id="_G0-7oEW4EemKT5rL-yWemg" input="_pZyHEkqHEemuQsfqsOazYw" count="1" external="false" internalName="master_cell_RootContainer" name="RootContainer">
+    <cell xmi:type="master:MasterCell" xmi:id="_G0-7oEW4EemKT5rL-yWemg" input="_ElecUEqIEemuQsfqsOazYw _ElecUUqIEemuQsfqsOazYw" count="1" external="false" internalName="master_cell_RootContainer" name="RootContainer">
       <designCells xmi:type="flow:Cell" href="containers/RootContainer.flow#_Gbrq0EW4EemKT5rL-yWemg"/>
       <designCells xmi:type="flow:Cell" href="routes/DefaultRoute.flow#_KbuY0EW4EemKT5rL-yWemg"/>
     </cell>
-    <tube xmi:type="master:MasterTube" xmi:id="_pZyHEkqHEemuQsfqsOazYw" from="_KbLasEXCEemKT5rL-yWemg" internalName="GraphContainer-Graph-RootContainer" name="Graph" to="_G0-7oEW4EemKT5rL-yWemg">
+    <tube xmi:type="master:MasterTube" xmi:id="_ElecUUqIEemuQsfqsOazYw" from="_KbLasEXCEemKT5rL-yWemg" internalName="GraphContainer-Graph-RootContainer" name="Graph" to="_G0-7oEW4EemKT5rL-yWemg">
       <designTubes xmi:type="flow:Tube" href="routes/DefaultRoute.flow#_FbBTgEXCEemKT5rL-yWemg"/>
     </tube>
-    <tube xmi:type="master:MasterTube" xmi:id="_pZyHEUqHEemuQsfqsOazYw" from="_pZyHEEqHEemuQsfqsOazYw" internalName="ButtonComponent-rebuild-GraphContainer" name="rebuild" to="_KbLasEXCEemKT5rL-yWemg">
-      <designTubes xmi:type="flow:Tube" href="containers/GraphContainer.flow#_oFFlAEqHEemuQsfqsOazYw"/>
+    <tube xmi:type="master:MasterTube" xmi:id="_ElecUEqIEemuQsfqsOazYw" from="_pZyHEEqHEemuQsfqsOazYw" internalName="ButtonComponent-rebuild-RootContainer" name="rebuild" to="_G0-7oEW4EemKT5rL-yWemg">
+      <designTubes xmi:type="flow:Tube" href="containers/RootContainer.flow#_9BbcEEqHEemuQsfqsOazYw"/>
     </tube>
   </master:MasterDesign>
 </xmi:XMI>

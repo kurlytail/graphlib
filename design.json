@@ -1,11 +1,4 @@
 {
-  "_oFFlAEqHEemuQsfqsOazYw": {
-    "clazz": "Tube",
-    "name": "rebuild",
-    "descriptor": [],
-    "from": "_m_jgUEqHEemuQsfqsOazYw",
-    "to": "_lnDcUEqHEemuQsfqsOazYw"
-  },
   "_KbuY0EW4EemKT5rL-yWemg": {
     "clazz": "Cell",
     "count": 1,
@@ -27,48 +20,34 @@
       "_FbBTgEXCEemKT5rL-yWemg"
     ]
   },
+  "_9BbcEEqHEemuQsfqsOazYw": {
+    "clazz": "Tube",
+    "name": "rebuild",
+    "descriptor": [],
+    "from": "_8K41oEqHEemuQsfqsOazYw",
+    "to": "_Gbrq0EW4EemKT5rL-yWemg"
+  },
   "_4v_W4EW3EemKT5rL-yWemg": {
     "clazz": "Layer",
     "name": "swarm",
     "constraint": []
   },
-  "_m_jgUEqHEemuQsfqsOazYw": {
-    "clazz": "Cell",
-    "count": 1,
-    "external": false,
-    "name": "ButtonComponent",
-    "input": [],
-    "output": [
-      "_oFFlAEqHEemuQsfqsOazYw"
-    ]
-  },
-  "ButtonComponent-rebuild-GraphContainer": {
-    "clazz": "MasterTube",
-    "internalName": "ButtonComponent-rebuild-GraphContainer",
-    "name": "rebuild",
-    "designTubes": [
-      "_oFFlAEqHEemuQsfqsOazYw"
-    ],
-    "from": "master_cell_ButtonComponent",
-    "to": "master_cell_GraphContainer"
-  },
   "_ADNhUEXCEemKT5rL-yWemg": {
     "clazz": "Flow",
     "name": "GraphContainer",
     "cell": [
-      "_lnDcUEqHEemuQsfqsOazYw",
-      "_m_jgUEqHEemuQsfqsOazYw"
+      "_lnDcUEqHEemuQsfqsOazYw"
     ],
-    "tube": [
-      "_oFFlAEqHEemuQsfqsOazYw"
-    ]
+    "tube": []
   },
   "_Gbrq0EW4EemKT5rL-yWemg": {
     "clazz": "Cell",
     "count": 1,
     "external": false,
     "name": "RootContainer",
-    "input": [],
+    "input": [
+      "_9BbcEEqHEemuQsfqsOazYw"
+    ],
     "output": []
   },
   "_FbBTgEXCEemKT5rL-yWemg": {
@@ -78,6 +57,16 @@
     "from": "_EfrFkEXCEemKT5rL-yWemg",
     "to": "_KbuY0EW4EemKT5rL-yWemg"
   },
+  "_8K41oEqHEemuQsfqsOazYw": {
+    "clazz": "Cell",
+    "count": 1,
+    "external": false,
+    "name": "ButtonComponent",
+    "input": [],
+    "output": [
+      "_9BbcEEqHEemuQsfqsOazYw"
+    ]
+  },
   "master_cell_GraphContainer": {
     "clazz": "MasterCell",
     "count": 1,
@@ -85,9 +74,7 @@
     "internalName": "master_cell_GraphContainer",
     "name": "GraphContainer",
     "pinned": false,
-    "input": [
-      "ButtonComponent-rebuild-GraphContainer"
-    ],
+    "input": [],
     "output": [
       "GraphContainer-Graph-RootContainer"
     ],
@@ -106,7 +93,7 @@
     ],
     "tube": [
       "GraphContainer-Graph-RootContainer",
-      "ButtonComponent-rebuild-GraphContainer"
+      "ButtonComponent-rebuild-RootContainer"
     ]
   },
   "master_cell_RootContainer": {
@@ -117,6 +104,7 @@
     "name": "RootContainer",
     "pinned": false,
     "input": [
+      "ButtonComponent-rebuild-RootContainer",
       "GraphContainer-Graph-RootContainer"
     ],
     "output": [],
@@ -130,9 +118,7 @@
     "count": 1,
     "external": false,
     "name": "GraphContainer",
-    "input": [
-      "_oFFlAEqHEemuQsfqsOazYw"
-    ],
+    "input": [],
     "output": []
   },
   "GraphContainer-Graph-RootContainer": {
@@ -145,6 +131,16 @@
     "from": "master_cell_GraphContainer",
     "to": "master_cell_RootContainer"
   },
+  "ButtonComponent-rebuild-RootContainer": {
+    "clazz": "MasterTube",
+    "internalName": "ButtonComponent-rebuild-RootContainer",
+    "name": "rebuild",
+    "designTubes": [
+      "_9BbcEEqHEemuQsfqsOazYw"
+    ],
+    "from": "master_cell_ButtonComponent",
+    "to": "master_cell_RootContainer"
+  },
   "master_cell_ButtonComponent": {
     "clazz": "MasterCell",
     "count": 1,
@@ -154,10 +150,10 @@
     "pinned": false,
     "input": [],
     "output": [
-      "ButtonComponent-rebuild-GraphContainer"
+      "ButtonComponent-rebuild-RootContainer"
     ],
     "designCells": [
-      "_m_jgUEqHEemuQsfqsOazYw"
+      "_8K41oEqHEemuQsfqsOazYw"
     ]
   },
   "_EfrFkEXCEemKT5rL-yWemg": {
@@ -174,8 +170,11 @@
     "clazz": "Flow",
     "name": "RootContainer",
     "cell": [
-      "_Gbrq0EW4EemKT5rL-yWemg"
+      "_Gbrq0EW4EemKT5rL-yWemg",
+      "_8K41oEqHEemuQsfqsOazYw"
     ],
-    "tube": []
+    "tube": [
+      "_9BbcEEqHEemuQsfqsOazYw"
+    ]
   }
 }

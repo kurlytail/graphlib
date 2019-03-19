@@ -1,4 +1,3 @@
-import { ButtonComponent } from '../components';
 import React, { Component } from 'react';
 const MXGraph = require('mxgraph')();
 

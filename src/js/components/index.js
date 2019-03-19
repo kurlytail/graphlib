@@ -1,3 +1,7 @@
+import TreeViewComponent from './TreeViewComponent';
+
+import TitleComponent from './TitleComponent';
+
 import ButtonComponent from './ButtonComponent';
 
-export { ButtonComponent };
+export { TreeViewComponent, TitleComponent, ButtonComponent };

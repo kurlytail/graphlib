@@ -17,6 +17,22 @@
     ".flowconfig": { "template": "node_modules/@kurlytail/gen-npm/templates/.flowconfig._" },
     "jsdoc.json": { "template": "node_modules/@kurlytail/gen-react/templates/jsdoc.json._" },
     "src/js/index.jsx": { "template": "node_modules/@kurlytail/gen-react/templates/src/js/index.jsx._" },
+    "src/js/components/TreeViewComponent.jsx": {
+        "template": "node_modules/@kurlytail/gen-react/templates/src/js/components/component.jsx._",
+        "context": "TreeViewComponent"
+    },
+    "src/js/components/__tests__/TreeViewComponent.jsx": {
+        "template": "node_modules/@kurlytail/gen-react/templates/src/js/components/__tests__/component.jsx._",
+        "context": "TreeViewComponent"
+    },
+    "src/js/components/TitleComponent.jsx": {
+        "template": "node_modules/@kurlytail/gen-react/templates/src/js/components/component.jsx._",
+        "context": "TitleComponent"
+    },
+    "src/js/components/__tests__/TitleComponent.jsx": {
+        "template": "node_modules/@kurlytail/gen-react/templates/src/js/components/__tests__/component.jsx._",
+        "context": "TitleComponent"
+    },
     "src/js/components/ButtonComponent.jsx": {
         "template": "node_modules/@kurlytail/gen-react/templates/src/js/components/button-component.jsx._",
         "context": "ButtonComponent"

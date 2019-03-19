@@ -6,7 +6,7 @@ import React, { Component } from 'react';
 class RootContainer extends Component {
     render() {
         const Container = (
-            <div>
+            <div className={'container-fluid'}>
                 <Route path={'DefaultRoute'} component={GraphContainer} />
             </div>
         );

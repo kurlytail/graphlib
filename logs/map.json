@@ -1,0 +1,43 @@
+{
+    ".prettierrc": { "template": "node_modules/@kurlytail/gen-npm/templates/.prettierrc._" },
+    "logs/map.json": { "template": "node_modules/@kurlytail/gen-log/templates/logs/map.json._" },
+    "logs/options.json": { "template": "node_modules/@kurlytail/gen-log/templates/logs/options.json._" },
+    ".editorconfig": { "template": "node_modules/@kurlytail/gen-npm/templates/.editorconfig._" },
+    ".eslintignore": { "template": "node_modules/@kurlytail/gen-npm/templates/.eslintignore._" },
+    ".babelrc": { "template": "node_modules/@kurlytail/gen-npm/templates/.babelrc._" },
+    ".eslintrc.js": { "template": "node_modules/@kurlytail/gen-npm/templates/.eslintrc.js._" },
+    ".gitignore": { "template": "node_modules/@kurlytail/gen-npm/templates/.gitignore._" },
+    ".npmignore": { "template": "node_modules/@kurlytail/gen-npm/templates/.npmignore._" },
+    "Jenkinsfile": { "template": "node_modules/@kurlytail/gen-npm/templates/Jenkinsfile._" },
+    "package.json": { "template": "node_modules/@kurlytail/gen-npm/templates/package.json._" },
+    "README.md": { "template": "node_modules/@kurlytail/gen-npm/templates/README.md._" },
+    "webpack.config.js": { "template": "node_modules/@kurlytail/gen-npm/templates/webpack.config.js._" },
+    "src/js/index.js": { "template": "node_modules/@kurlytail/gen-npm/templates/index.js._" },
+    "src/js/__tests__/integration.js": { "template": "node_modules/@kurlytail/gen-npm/templates/integration.js._" },
+    ".flowconfig": { "template": "node_modules/@kurlytail/gen-npm/templates/.flowconfig._" },
+    "jsdoc.json": { "template": "node_modules/@kurlytail/gen-react/templates/jsdoc.json._" },
+    "src/js/index.jsx": { "template": "node_modules/@kurlytail/gen-react/templates/src/js/index.jsx._" },
+    "src/js/components/index.js": {
+        "template": "node_modules/@kurlytail/gen-react/templates/src/js/components/index.js._"
+    },
+    "src/js/containers/GraphContainer.jsx": {
+        "template": "node_modules/@kurlytail/gen-react/templates/src/js/containers/container.jsx._",
+        "context": "GraphContainer"
+    },
+    "src/js/containers/__tests__/GraphContainer.jsx": {
+        "template": "node_modules/@kurlytail/gen-react/templates/src/js/containers/__tests__/container.jsx._",
+        "context": "GraphContainer"
+    },
+    "src/js/containers/RootContainer.jsx": {
+        "template": "node_modules/@kurlytail/gen-react/templates/src/js/containers/container.jsx._",
+        "context": "RootContainer"
+    },
+    "src/js/containers/__tests__/RootContainer.jsx": {
+        "template": "node_modules/@kurlytail/gen-react/templates/src/js/containers/__tests__/container.jsx._",
+        "context": "RootContainer"
+    },
+    "src/js/containers/index.js": {
+        "template": "node_modules/@kurlytail/gen-react/templates/src/js/containers/index.js._"
+    },
+    "src/js/html.jst": { "template": "node_modules/@kurlytail/gen-react/templates/src/js/html.jst._" }
+}

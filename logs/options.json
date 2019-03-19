@@ -1,0 +1,16 @@
+{
+    "design": ["design.json"],
+    "map": [
+        "node_modules/@kurlytail/gen-log/templates/map.json",
+        "node_modules/@kurlytail/gen-npm/templates/map.json",
+        "node_modules/@kurlytail/gen-react/templates/map.json"
+    ],
+    "extension": [
+        "node_modules/@kurlytail/gen-npm/templates/extensions",
+        "node_modules/@kurlytail/gen-react/templates/extensions",
+        "node_modules/@kurlytail/gen-bootstrap4/templates/extensions"
+    ],
+    "generator": ["log", "npm", "react", "bootstrap4"],
+    "g": ["log", "react", "bootstrap4"],
+    "d": ["design.json"]
+}

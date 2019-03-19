@@ -42,7 +42,7 @@ class GraphContainer extends Component {
             {
                 var v1 = graph.insertVertex(parent, null, 'Hello,', 20, 20, 80, 30);
                 var v2 = graph.insertVertex(parent, null, 'World!', 200, 150, 80, 30);
-                var e1 = graph.insertEdge(parent, null, '', v1, v2);
+                graph.insertEdge(parent, null, '', v1, v2);
             }
             finally
             {
@@ -57,7 +57,7 @@ class GraphContainer extends Component {
     }
 
     render() {
-        const Container = <div id={'#graphContainer'}/>;
+        const Container = <div id={'#graphContainer'} className={'container-fluid'} />;
         return Container;
     }
 }

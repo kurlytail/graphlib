@@ -44,6 +44,22 @@
         "template": "node_modules/@kurlytail/gen-react/templates/src/js/containers/__tests__/container.jsx._",
         "context": "RootContainer"
     },
+    "src/js/containers/PropertiesContainer.jsx": {
+        "template": "node_modules/@kurlytail/gen-react/templates/src/js/containers/container.jsx._",
+        "context": "PropertiesContainer"
+    },
+    "src/js/containers/__tests__/PropertiesContainer.jsx": {
+        "template": "node_modules/@kurlytail/gen-react/templates/src/js/containers/__tests__/container.jsx._",
+        "context": "PropertiesContainer"
+    },
+    "src/js/containers/DesignComponentContainer.jsx": {
+        "template": "node_modules/@kurlytail/gen-react/templates/src/js/containers/container.jsx._",
+        "context": "DesignComponentContainer"
+    },
+    "src/js/containers/__tests__/DesignComponentContainer.jsx": {
+        "template": "node_modules/@kurlytail/gen-react/templates/src/js/containers/__tests__/container.jsx._",
+        "context": "DesignComponentContainer"
+    },
     "src/js/containers/index.js": {
         "template": "node_modules/@kurlytail/gen-react/templates/src/js/containers/index.js._"
     },

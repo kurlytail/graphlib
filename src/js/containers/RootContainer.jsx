@@ -8,7 +8,11 @@ class RootContainer extends Component {
     render() {
         const Container = (
             <div className={'container-fluid'}>
-                <ButtonComponent label="rebuild" />
+                <ButtonComponent label="createCell" />
+
+                <ButtonComponent label="createTube" />
+
+                <ButtonComponent label="reverse" />
 
                 <Route path={'*'} component={GraphContainer} />
             </div>

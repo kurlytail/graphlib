@@ -1,4 +1,11 @@
 {
+  "_oFFlAEqHEemuQsfqsOazYw": {
+    "clazz": "Tube",
+    "name": "rebuild",
+    "descriptor": [],
+    "from": "_m_jgUEqHEemuQsfqsOazYw",
+    "to": "_lnDcUEqHEemuQsfqsOazYw"
+  },
   "_KbuY0EW4EemKT5rL-yWemg": {
     "clazz": "Cell",
     "count": 1,
@@ -7,6 +14,61 @@
     "input": [
       "_FbBTgEXCEemKT5rL-yWemg"
     ],
+    "output": []
+  },
+  "_KAqNcEW4EemKT5rL-yWemg": {
+    "clazz": "Flow",
+    "name": "DefaultRoute",
+    "cell": [
+      "_KbuY0EW4EemKT5rL-yWemg",
+      "_EfrFkEXCEemKT5rL-yWemg"
+    ],
+    "tube": [
+      "_FbBTgEXCEemKT5rL-yWemg"
+    ]
+  },
+  "_4v_W4EW3EemKT5rL-yWemg": {
+    "clazz": "Layer",
+    "name": "swarm",
+    "constraint": []
+  },
+  "_m_jgUEqHEemuQsfqsOazYw": {
+    "clazz": "Cell",
+    "count": 1,
+    "external": false,
+    "name": "ButtonComponent",
+    "input": [],
+    "output": [
+      "_oFFlAEqHEemuQsfqsOazYw"
+    ]
+  },
+  "ButtonComponent-rebuild-GraphContainer": {
+    "clazz": "MasterTube",
+    "internalName": "ButtonComponent-rebuild-GraphContainer",
+    "name": "rebuild",
+    "designTubes": [
+      "_oFFlAEqHEemuQsfqsOazYw"
+    ],
+    "from": "master_cell_ButtonComponent",
+    "to": "master_cell_GraphContainer"
+  },
+  "_ADNhUEXCEemKT5rL-yWemg": {
+    "clazz": "Flow",
+    "name": "GraphContainer",
+    "cell": [
+      "_lnDcUEqHEemuQsfqsOazYw",
+      "_m_jgUEqHEemuQsfqsOazYw"
+    ],
+    "tube": [
+      "_oFFlAEqHEemuQsfqsOazYw"
+    ]
+  },
+  "_Gbrq0EW4EemKT5rL-yWemg": {
+    "clazz": "Cell",
+    "count": 1,
+    "external": false,
+    "name": "RootContainer",
+    "input": [],
     "output": []
   },
   "_FbBTgEXCEemKT5rL-yWemg": {
@@ -23,11 +85,14 @@
     "internalName": "master_cell_GraphContainer",
     "name": "GraphContainer",
     "pinned": false,
-    "input": [],
+    "input": [
+      "ButtonComponent-rebuild-GraphContainer"
+    ],
     "output": [
       "GraphContainer-Graph-RootContainer"
     ],
     "designCells": [
+      "_lnDcUEqHEemuQsfqsOazYw",
       "_EfrFkEXCEemKT5rL-yWemg"
     ]
   },
@@ -35,22 +100,13 @@
     "clazz": "MasterDesign",
     "name": "graphlib",
     "cell": [
+      "master_cell_ButtonComponent",
       "master_cell_GraphContainer",
       "master_cell_RootContainer"
     ],
     "tube": [
-      "GraphContainer-Graph-RootContainer"
-    ]
-  },
-  "_KAqNcEW4EemKT5rL-yWemg": {
-    "clazz": "Flow",
-    "name": "DefaultRoute",
-    "cell": [
-      "_KbuY0EW4EemKT5rL-yWemg",
-      "_EfrFkEXCEemKT5rL-yWemg"
-    ],
-    "tube": [
-      "_FbBTgEXCEemKT5rL-yWemg"
+      "GraphContainer-Graph-RootContainer",
+      "ButtonComponent-rebuild-GraphContainer"
     ]
   },
   "master_cell_RootContainer": {
@@ -69,6 +125,16 @@
       "_KbuY0EW4EemKT5rL-yWemg"
     ]
   },
+  "_lnDcUEqHEemuQsfqsOazYw": {
+    "clazz": "Cell",
+    "count": 1,
+    "external": false,
+    "name": "GraphContainer",
+    "input": [
+      "_oFFlAEqHEemuQsfqsOazYw"
+    ],
+    "output": []
+  },
   "GraphContainer-Graph-RootContainer": {
     "clazz": "MasterTube",
     "internalName": "GraphContainer-Graph-RootContainer",
@@ -79,10 +145,20 @@
     "from": "master_cell_GraphContainer",
     "to": "master_cell_RootContainer"
   },
-  "_4v_W4EW3EemKT5rL-yWemg": {
-    "clazz": "Layer",
-    "name": "swarm",
-    "constraint": []
+  "master_cell_ButtonComponent": {
+    "clazz": "MasterCell",
+    "count": 1,
+    "external": false,
+    "internalName": "master_cell_ButtonComponent",
+    "name": "ButtonComponent",
+    "pinned": false,
+    "input": [],
+    "output": [
+      "ButtonComponent-rebuild-GraphContainer"
+    ],
+    "designCells": [
+      "_m_jgUEqHEemuQsfqsOazYw"
+    ]
   },
   "_EfrFkEXCEemKT5rL-yWemg": {
     "clazz": "Cell",
@@ -101,19 +177,5 @@
       "_Gbrq0EW4EemKT5rL-yWemg"
     ],
     "tube": []
-  },
-  "_ADNhUEXCEemKT5rL-yWemg": {
-    "clazz": "Flow",
-    "name": "GraphContainer",
-    "cell": [],
-    "tube": []
-  },
-  "_Gbrq0EW4EemKT5rL-yWemg": {
-    "clazz": "Cell",
-    "count": 1,
-    "external": false,
-    "name": "RootContainer",
-    "input": [],
-    "output": []
   }
 }

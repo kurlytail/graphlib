@@ -10,7 +10,6 @@ class RootContainer extends Component {
                 <Route path={'*'} component={GraphContainer} />
             </div>
         );
-
         return <Router>{Container}</Router>;
     }
 }

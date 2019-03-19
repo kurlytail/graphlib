@@ -3,6 +3,11 @@ const MXGraph = require('mxgraph')();
 
 class GraphContainer extends Component {
 
+    render() {
+        const Container = <div id={'#graphContainer'} className={'container-fluid'} />;
+        return Container;
+    }
+
     initializeMxGraph(container) {
         // Checks if the browser is supported
         if (!MXGraph.mxClient.isBrowserSupported())
@@ -54,11 +59,6 @@ class GraphContainer extends Component {
 
     componentDidMount() {
         this.initializeMxGraph(document.getElementById('#graphContainer'));
-    }
-
-    render() {
-        const Container = <div id={'#graphContainer'} className={'container-fluid'} />;
-        return Container;
     }
 }
 

@@ -7,10 +7,9 @@ class RootContainer extends Component {
     render() {
         const Container = (
             <div className={'container-fluid'}>
-                <Route path={'DefaultRoute'} component={GraphContainer} />
+                <Route path={'*'} component={GraphContainer} />
             </div>
         );
-
         return <Router>{Container}</Router>;
     }
 }

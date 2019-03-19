@@ -17,6 +17,14 @@
     ".flowconfig": { "template": "node_modules/@kurlytail/gen-npm/templates/.flowconfig._" },
     "jsdoc.json": { "template": "node_modules/@kurlytail/gen-react/templates/jsdoc.json._" },
     "src/js/index.jsx": { "template": "node_modules/@kurlytail/gen-react/templates/src/js/index.jsx._" },
+    "src/js/components/ButtonComponent.jsx": {
+        "template": "node_modules/@kurlytail/gen-react/templates/src/js/components/button-component.jsx._",
+        "context": "ButtonComponent"
+    },
+    "src/js/components/__tests__/ButtonComponent.jsx": {
+        "template": "node_modules/@kurlytail/gen-react/templates/src/js/components/__tests__/component.jsx._",
+        "context": "ButtonComponent"
+    },
     "src/js/components/index.js": {
         "template": "node_modules/@kurlytail/gen-react/templates/src/js/components/index.js._"
     },

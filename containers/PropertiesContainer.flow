@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:flow="http://www.brainspeedtech.com/swarm/flow" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation">
+  <flow:Flow xmi:id="_4qy_wEqXEemuQsfqsOazYw" name="PropertiesContainer">
+    <cell xmi:type="flow:Cell" xmi:id="_5knjsEqXEemuQsfqsOazYw" input="_87jDQEqXEemuQsfqsOazYw" name="PropertiesContainer"/>
+    <cell xmi:type="flow:Cell" xmi:id="_6RdbkEqXEemuQsfqsOazYw" output="_87jDQEqXEemuQsfqsOazYw" name="TreeViewComponent"/>
+    <tube xmi:type="flow:Tube" xmi:id="_87jDQEqXEemuQsfqsOazYw" from="_6RdbkEqXEemuQsfqsOazYw" name="properties" to="_5knjsEqXEemuQsfqsOazYw"/>
+  </flow:Flow>
+  <notation:Diagram xmi:id="_4qy_wUqXEemuQsfqsOazYw" type="Flow" element="_4qy_wEqXEemuQsfqsOazYw" name="PropertiesContainer.flow" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_5kox0EqXEemuQsfqsOazYw" type="2001" element="_5knjsEqXEemuQsfqsOazYw" fontName=".SF NS Text">
+      <children xmi:type="notation:DecorationNode" xmi:id="_5kox0kqXEemuQsfqsOazYw" type="5001"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5kox0UqXEemuQsfqsOazYw" x="331" y="115"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_6ReCoEqXEemuQsfqsOazYw" type="2001" element="_6RdbkEqXEemuQsfqsOazYw" fontName=".SF NS Text">
+      <children xmi:type="notation:DecorationNode" xmi:id="_6ReCokqXEemuQsfqsOazYw" type="5001"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6ReCoUqXEemuQsfqsOazYw" x="118" y="239"/>
+    </children>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_4qy_wkqXEemuQsfqsOazYw"/>
+    <edges xmi:type="notation:Connector" xmi:id="_87jqUEqXEemuQsfqsOazYw" type="4001" element="_87jDQEqXEemuQsfqsOazYw" source="_6ReCoEqXEemuQsfqsOazYw" target="_5kox0EqXEemuQsfqsOazYw" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_87jqU0qXEemuQsfqsOazYw" type="6001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_87jqVEqXEemuQsfqsOazYw" y="40"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_87jqUUqXEemuQsfqsOazYw" fontName=".SF NS Text"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_87jqUkqXEemuQsfqsOazYw" points="[0, 0, -163, 90]$[152, -84, -11, 6]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_87kRYEqXEemuQsfqsOazYw" id="(0.7422680412371134,0.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_87kRYUqXEemuQsfqsOazYw" id="(0.21348314606741572,0.85)"/>
+    </edges>
+  </notation:Diagram>
+</xmi:XMI>

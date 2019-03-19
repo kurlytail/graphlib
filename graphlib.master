@@ -4,30 +4,68 @@
     <styles xmi:type="notation:DiagramStyle" xmi:id="_EUKksUW4EemKT5rL-yWemg"/>
   </notation:Diagram>
   <master:MasterDesign xmi:id="_EUKkskW4EemKT5rL-yWemg" name="graphlib">
-    <cell xmi:type="master:MasterCell" xmi:id="_pZyHEEqHEemuQsfqsOazYw" output="_zRXu4EqVEemuQsfqsOazYw _zRXu4UqVEemuQsfqsOazYw _zRXu4kqVEemuQsfqsOazYw" count="1" external="false" internalName="master_cell_ButtonComponent" name="ButtonComponent">
+    <cell xmi:type="master:MasterCell" xmi:id="_pZyHEEqHEemuQsfqsOazYw" output="__rMgY0qXEemuQsfqsOazYw __rMgZEqXEemuQsfqsOazYw __rMgZUqXEemuQsfqsOazYw __rMgZkqXEemuQsfqsOazYw __rMgZ0qXEemuQsfqsOazYw" count="1" external="false" internalName="master_cell_ButtonComponent" name="ButtonComponent">
       <designCells xmi:type="flow:Cell" href="containers/RootContainer.flow#_8K41oEqHEemuQsfqsOazYw"/>
       <designCells xmi:type="flow:Cell" href="containers/RootContainer.flow#_mjgVIEqVEemuQsfqsOazYw"/>
       <designCells xmi:type="flow:Cell" href="containers/RootContainer.flow#_uNSJ8EqVEemuQsfqsOazYw"/>
+      <designCells xmi:type="flow:Cell" href="containers/RootContainer.flow#_kDvRoEqWEemuQsfqsOazYw"/>
+      <designCells xmi:type="flow:Cell" href="containers/RootContainer.flow#_nlLYEEqWEemuQsfqsOazYw"/>
     </cell>
-    <cell xmi:type="master:MasterCell" xmi:id="_KbLasEXCEemKT5rL-yWemg" output="_zRXu40qVEemuQsfqsOazYw" count="1" external="false" internalName="master_cell_GraphContainer" name="GraphContainer">
+    <cell xmi:type="master:MasterCell" xmi:id="_1C1QAEqWEemuQsfqsOazYw" input="__rMgYEqXEemuQsfqsOazYw __rMgYUqXEemuQsfqsOazYw" output="__rMgaEqXEemuQsfqsOazYw" count="1" external="false" internalName="master_cell_DesignComponentContainer" name="DesignComponentContainer">
+      <designCells xmi:type="flow:Cell" href="containers/DesignComponentContainer.flow#_kLuTgEqXEemuQsfqsOazYw"/>
+      <designCells xmi:type="flow:Cell" href="containers/RootContainer.flow#_rt0ocEqWEemuQsfqsOazYw"/>
+    </cell>
+    <cell xmi:type="master:MasterCell" xmi:id="_KbLasEXCEemKT5rL-yWemg" output="__rMgakqXEemuQsfqsOazYw" count="1" external="false" internalName="master_cell_GraphContainer" name="GraphContainer">
       <designCells xmi:type="flow:Cell" href="containers/GraphContainer.flow#_lnDcUEqHEemuQsfqsOazYw"/>
       <designCells xmi:type="flow:Cell" href="routes/DefaultRoute.flow#_EfrFkEXCEemKT5rL-yWemg"/>
     </cell>
-    <cell xmi:type="master:MasterCell" xmi:id="_G0-7oEW4EemKT5rL-yWemg" input="_zRXu4EqVEemuQsfqsOazYw _zRXu4UqVEemuQsfqsOazYw _zRXu4kqVEemuQsfqsOazYw _zRXu40qVEemuQsfqsOazYw" count="1" external="false" internalName="master_cell_RootContainer" name="RootContainer">
+    <cell xmi:type="master:MasterCell" xmi:id="_1C1QAUqWEemuQsfqsOazYw" input="__rMgYkqXEemuQsfqsOazYw" output="__rMgaUqXEemuQsfqsOazYw" count="1" external="false" internalName="master_cell_PropertiesContainer" name="PropertiesContainer">
+      <designCells xmi:type="flow:Cell" href="containers/PropertiesContainer.flow#_5knjsEqXEemuQsfqsOazYw"/>
+      <designCells xmi:type="flow:Cell" href="containers/RootContainer.flow#_xNKmAEqWEemuQsfqsOazYw"/>
+    </cell>
+    <cell xmi:type="master:MasterCell" xmi:id="_G0-7oEW4EemKT5rL-yWemg" input="__rMgY0qXEemuQsfqsOazYw __rMgZEqXEemuQsfqsOazYw __rMgZUqXEemuQsfqsOazYw __rMgZkqXEemuQsfqsOazYw __rMgZ0qXEemuQsfqsOazYw __rMgaEqXEemuQsfqsOazYw __rMgaUqXEemuQsfqsOazYw __rMgakqXEemuQsfqsOazYw" count="1" external="false" internalName="master_cell_RootContainer" name="RootContainer">
       <designCells xmi:type="flow:Cell" href="containers/RootContainer.flow#_Gbrq0EW4EemKT5rL-yWemg"/>
       <designCells xmi:type="flow:Cell" href="routes/DefaultRoute.flow#_KbuY0EW4EemKT5rL-yWemg"/>
     </cell>
-    <tube xmi:type="master:MasterTube" xmi:id="_zRXu40qVEemuQsfqsOazYw" from="_KbLasEXCEemKT5rL-yWemg" internalName="GraphContainer-Graph-RootContainer" name="Graph" to="_G0-7oEW4EemKT5rL-yWemg">
+    <cell xmi:type="master:MasterCell" xmi:id="_uZknkEqXEemuQsfqsOazYw" output="__rMgYUqXEemuQsfqsOazYw" count="1" external="false" internalName="master_cell_TitleComponent" name="TitleComponent">
+      <designCells xmi:type="flow:Cell" href="containers/DesignComponentContainer.flow#_r3yAQEqXEemuQsfqsOazYw"/>
+    </cell>
+    <cell xmi:type="master:MasterCell" xmi:id="_sWi_4EqXEemuQsfqsOazYw" output="__rMgYEqXEemuQsfqsOazYw __rMgYkqXEemuQsfqsOazYw" count="1" external="false" internalName="master_cell_TreeViewComponent" name="TreeViewComponent">
+      <designCells xmi:type="flow:Cell" href="containers/DesignComponentContainer.flow#_oovRYEqXEemuQsfqsOazYw"/>
+      <designCells xmi:type="flow:Cell" href="containers/PropertiesContainer.flow#_6RdbkEqXEemuQsfqsOazYw"/>
+    </cell>
+    <tube xmi:type="master:MasterTube" xmi:id="__rMgakqXEemuQsfqsOazYw" from="_KbLasEXCEemKT5rL-yWemg" internalName="GraphContainer-Graph-RootContainer" name="Graph" to="_G0-7oEW4EemKT5rL-yWemg">
       <designTubes xmi:type="flow:Tube" href="routes/DefaultRoute.flow#_FbBTgEXCEemKT5rL-yWemg"/>
     </tube>
-    <tube xmi:type="master:MasterTube" xmi:id="_zRXu4EqVEemuQsfqsOazYw" from="_pZyHEEqHEemuQsfqsOazYw" internalName="ButtonComponent-createCell-RootContainer" name="createCell" to="_G0-7oEW4EemKT5rL-yWemg">
+    <tube xmi:type="master:MasterTube" xmi:id="__rMgY0qXEemuQsfqsOazYw" from="_pZyHEEqHEemuQsfqsOazYw" internalName="ButtonComponent-createCell-RootContainer" name="createCell" to="_G0-7oEW4EemKT5rL-yWemg">
       <designTubes xmi:type="flow:Tube" href="containers/RootContainer.flow#_9BbcEEqHEemuQsfqsOazYw"/>
     </tube>
-    <tube xmi:type="master:MasterTube" xmi:id="_zRXu4UqVEemuQsfqsOazYw" from="_pZyHEEqHEemuQsfqsOazYw" internalName="ButtonComponent-createTube-RootContainer" name="createTube" to="_G0-7oEW4EemKT5rL-yWemg">
+    <tube xmi:type="master:MasterTube" xmi:id="__rMgZEqXEemuQsfqsOazYw" from="_pZyHEEqHEemuQsfqsOazYw" internalName="ButtonComponent-createTube-RootContainer" name="createTube" to="_G0-7oEW4EemKT5rL-yWemg">
       <designTubes xmi:type="flow:Tube" href="containers/RootContainer.flow#_pc6LMEqVEemuQsfqsOazYw"/>
     </tube>
-    <tube xmi:type="master:MasterTube" xmi:id="_zRXu4kqVEemuQsfqsOazYw" from="_pZyHEEqHEemuQsfqsOazYw" internalName="ButtonComponent-reverse-RootContainer" name="reverse" to="_G0-7oEW4EemKT5rL-yWemg">
+    <tube xmi:type="master:MasterTube" xmi:id="__rMgaEqXEemuQsfqsOazYw" from="_1C1QAEqWEemuQsfqsOazYw" internalName="DesignComponentContainer-designComponents-RootContainer" name="designComponents" to="_G0-7oEW4EemKT5rL-yWemg">
+      <designTubes xmi:type="flow:Tube" href="containers/RootContainer.flow#_uYamcEqWEemuQsfqsOazYw"/>
+    </tube>
+    <tube xmi:type="master:MasterTube" xmi:id="__rMgYEqXEemuQsfqsOazYw" from="_sWi_4EqXEemuQsfqsOazYw" internalName="TreeViewComponent-designTree-DesignComponentContainer" name="designTree" to="_1C1QAEqWEemuQsfqsOazYw">
+      <designTubes xmi:type="flow:Tube" href="containers/DesignComponentContainer.flow#_p5nqcEqXEemuQsfqsOazYw"/>
+    </tube>
+    <tube xmi:type="master:MasterTube" xmi:id="__rMgZkqXEemuQsfqsOazYw" from="_pZyHEEqHEemuQsfqsOazYw" internalName="ButtonComponent-loadDesign-RootContainer" name="loadDesign" to="_G0-7oEW4EemKT5rL-yWemg">
+      <designTubes xmi:type="flow:Tube" href="containers/RootContainer.flow#_k8_N0EqWEemuQsfqsOazYw"/>
+    </tube>
+    <tube xmi:type="master:MasterTube" xmi:id="__rMgYkqXEemuQsfqsOazYw" from="_sWi_4EqXEemuQsfqsOazYw" internalName="TreeViewComponent-properties-PropertiesContainer" name="properties" to="_1C1QAUqWEemuQsfqsOazYw">
+      <designTubes xmi:type="flow:Tube" href="containers/PropertiesContainer.flow#_87jDQEqXEemuQsfqsOazYw"/>
+    </tube>
+    <tube xmi:type="master:MasterTube" xmi:id="__rMgaUqXEemuQsfqsOazYw" from="_1C1QAUqWEemuQsfqsOazYw" internalName="PropertiesContainer-properties-RootContainer" name="properties" to="_G0-7oEW4EemKT5rL-yWemg">
+      <designTubes xmi:type="flow:Tube" href="containers/RootContainer.flow#_zuO0kEqWEemuQsfqsOazYw"/>
+    </tube>
+    <tube xmi:type="master:MasterTube" xmi:id="__rMgZUqXEemuQsfqsOazYw" from="_pZyHEEqHEemuQsfqsOazYw" internalName="ButtonComponent-reverse-RootContainer" name="reverse" to="_G0-7oEW4EemKT5rL-yWemg">
       <designTubes xmi:type="flow:Tube" href="containers/RootContainer.flow#_vPJPkEqVEemuQsfqsOazYw"/>
+    </tube>
+    <tube xmi:type="master:MasterTube" xmi:id="__rMgZ0qXEemuQsfqsOazYw" from="_pZyHEEqHEemuQsfqsOazYw" internalName="ButtonComponent-saveDesign-RootContainer" name="saveDesign" to="_G0-7oEW4EemKT5rL-yWemg">
+      <designTubes xmi:type="flow:Tube" href="containers/RootContainer.flow#_oYtGwEqWEemuQsfqsOazYw"/>
+    </tube>
+    <tube xmi:type="master:MasterTube" xmi:id="__rMgYUqXEemuQsfqsOazYw" from="_uZknkEqXEemuQsfqsOazYw" internalName="TitleComponent-title-DesignComponentContainer" name="title" to="_1C1QAEqWEemuQsfqsOazYw">
+      <designTubes xmi:type="flow:Tube" href="containers/DesignComponentContainer.flow#_tQ1d4EqXEemuQsfqsOazYw"/>
     </tube>
   </master:MasterDesign>
 </xmi:XMI>

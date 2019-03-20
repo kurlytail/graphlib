@@ -1,4 +1,6 @@
 eclipse.preferences.version=1
+encoding//containers/DesignComponentContainer.flow=UTF-8
 encoding//containers/GraphContainer.flow=UTF-8
+encoding//containers/PropertiesContainer.flow=UTF-8
 encoding//containers/RootContainer.flow=UTF-8
 encoding//routes/DefaultRoute.flow=UTF-8
